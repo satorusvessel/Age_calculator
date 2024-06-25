@@ -145,12 +145,12 @@ export const Card = () => {
           >
             <img
               src={iconarrow}
-              className="flex bg-indigo-600 rounded-full size-14 p-4"
+              className="flex bg-indigo-600 rounded-full mt-28 size-14 p-4"
               alt="arrow icon"
             />
           </button>
         </div>
-        <div className="flex border-t-2 border-slate-300 mt-8 w-full md:w-[550px] mx-auto"></div>
+        <div className="flex border-t-2 border-slate-300 mt-8 w-full mx-auto"></div>
         <div className="flex flex-col items-start justify-start p-4 gap-0">
           <h1 className="text-[40px] md:text-[80px] font-bold">
             <span className="text-indigo-500">{age.years}</span> years
